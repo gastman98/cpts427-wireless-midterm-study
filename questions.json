@@ -1,0 +1,1969 @@
+{
+ "mc": [
+  {
+   "source": "Blooket",
+   "topic": "Wireless Basics",
+   "q": "Which range category does Bluetooth typically fall under?",
+   "options": [
+    "WWAN",
+    "WLAN",
+    "WPAN",
+    "MAN"
+   ],
+   "answer": 2,
+   "explain": "Bluetooth is a short-range (~10 m) Wireless Personal Area Network technology."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Wireless Basics",
+   "q": "Streaming Netflix on home Wi-Fi is an example of:",
+   "options": [
+    "WWAN",
+    "WLAN",
+    "WPAN",
+    "Ad hoc"
+   ],
+   "answer": 1,
+   "explain": "Home Wi-Fi (802.11) is a Wireless Local Area Network."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Wireless Basics",
+   "q": "Smartwatch step tracking (syncing to a phone) uses which technology?",
+   "options": [
+    "LTE",
+    "Bluetooth",
+    "NFC",
+    "ZigBee"
+   ],
+   "answer": 1,
+   "explain": "Wearables sync to phones over Bluetooth (usually BLE)."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Wireless Basics",
+   "q": "The main benefit of WWAN during a disaster is:",
+   "options": [
+    "Higher latency",
+    "Large-area coverage without local infrastructure",
+    "Works only indoors",
+    "Requires wired backhaul"
+   ],
+   "answer": 1,
+   "explain": "Wide-area cellular/satellite coverage keeps working when local infrastructure is down."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Wi-Fi / 802.11",
+   "q": "Which IEEE standard is used for Wi-Fi 6?",
+   "options": [
+    "802.11ac",
+    "802.11ax",
+    "802.15.4",
+    "802.3"
+   ],
+   "answer": 1,
+   "explain": "802.11ax = Wi-Fi 6. 802.11ac = Wi-Fi 5, 802.15.4 = ZigBee PHY/MAC, 802.3 = Ethernet."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Wi-Fi / 802.11",
+   "q": "A Wi-Fi access point sending beacons every 100 ms is operating at which OSI layer?",
+   "options": [
+    "Physical",
+    "Data Link",
+    "Network",
+    "Transport"
+   ],
+   "answer": 1,
+   "explain": "Beacons are 802.11 MAC management frames: Layer 2 (Data Link)."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Bluetooth & ZigBee",
+   "q": "Which frame type does a ZigBee device send when it wants to find a network?",
+   "options": [
+    "Association request",
+    "Beacon request",
+    "Probe request",
+    "RTS"
+   ],
+   "answer": 1,
+   "explain": "In 802.15.4/ZigBee, a device scans by sending a Beacon Request; coordinators/routers reply with beacons. (Probe request is the Wi-Fi equivalent.)"
+  },
+  {
+   "source": "Blooket",
+   "topic": "Wireless Basics",
+   "q": "Why do IoT devices often use 2.4 GHz instead of 5 GHz?",
+   "options": [
+    "Less interference",
+    "More bandwidth",
+    "Longer range, better penetration",
+    "Always faster"
+   ],
+   "answer": 2,
+   "explain": "Lower frequency has less free-space loss and penetrates walls better. 2.4 GHz is actually MORE crowded."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Networks & Switching",
+   "q": "Which statement about packet switching vs circuit switching is true?",
+   "options": [
+    "Circuit switching shares bandwidth dynamically",
+    "Packet switching reserves bandwidth ahead",
+    "Circuit switching idle times waste capacity",
+    "Packet switching cannot handle bursty traffic"
+   ],
+   "answer": 2,
+   "explain": "A circuit's capacity is dedicated even when nothing is sent, so idle periods waste it. Packet switching shares bandwidth dynamically and suits bursty traffic."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Bluetooth & ZigBee",
+   "q": "Which wireless tech uses frequency hopping as part of its standard?",
+   "options": [
+    "Wi-Fi",
+    "LTE",
+    "Bluetooth",
+    "Ethernet"
+   ],
+   "answer": 2,
+   "explain": "Bluetooth uses FHSS: 79 x 1 MHz channels, 1600 hops/s (adaptive hopping avoids busy channels)."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Wi-Fi / 802.11",
+   "q": "A device roaming between APs of the same SSID sends what?",
+   "options": [
+    "Beacon",
+    "Deauth",
+    "Reassociation Request",
+    "Probe Response"
+   ],
+   "answer": 2,
+   "explain": "Reassociation Request = moving to a new AP within the same ESS."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Wi-Fi / 802.11",
+   "q": "In WPA2, which exchange provides the cryptographic material for the session key?",
+   "options": [
+    "Beacon",
+    "4-way handshake (EAPOL)",
+    "ARP",
+    "RTS/CTS"
+   ],
+   "answer": 1,
+   "explain": "The 4-way handshake exchanges ANonce/SNonce so both sides derive the PTK from the PMK."
+  },
+  {
+   "source": "Blooket",
+   "topic": "GSM / Cellular",
+   "q": "What does IMSI stand for in GSM?",
+   "options": [
+    "International Mobile Subscriber Identity",
+    "Integrated Mobile Switching Interface",
+    "Internal Mobility Service Identifier",
+    "International Multi-System Interconnect"
+   ],
+   "answer": 0,
+   "explain": "IMSI: the permanent subscriber identity stored on the SIM."
+  },
+  {
+   "source": "Blooket",
+   "topic": "GSM / Cellular",
+   "q": "Which GSM component stores subscriber location and status (for subscribers currently in its area)?",
+   "options": [
+    "MSC",
+    "VLR",
+    "BSS",
+    "SIM"
+   ],
+   "answer": 1,
+   "explain": "The VLR holds temporary location/status data for subscribers in its area. The HLR is the permanent home database (not an option here)."
+  },
+  {
+   "source": "Blooket",
+   "topic": "GSM / Cellular",
+   "q": "SIM cards improve security primarily by:",
+   "options": [
+    "Storing temporary IMSI",
+    "Holding cryptographic keys",
+    "Boosting radio power",
+    "Encrypting baseband firmware"
+   ],
+   "answer": 1,
+   "explain": "The SIM holds the secret key Ki and runs A3/A8; Ki never leaves the card."
+  },
+  {
+   "source": "Blooket",
+   "topic": "GSM / Cellular",
+   "q": "Why does GSM use a Temporary Mobile Subscriber Identity (TMSI)?",
+   "options": [
+    "To speed up calls",
+    "To hide IMSI over the air",
+    "To support roaming BSS",
+    "To store SMS"
+   ],
+   "answer": 1,
+   "explain": "TMSI provides identity confidentiality so the IMSI isn't broadcast and trackable."
+  },
+  {
+   "source": "Blooket",
+   "topic": "GSM / Cellular",
+   "q": "Which multiple access technique does GSM primarily use on the air interface?",
+   "options": [
+    "CDMA",
+    "TDMA/FDMA",
+    "OFDMA",
+    "SDMA"
+   ],
+   "answer": 1,
+   "explain": "GSM: FDMA into 200 kHz carriers, each TDMA-split into 8 time slots."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Distributed Systems & Blockchain",
+   "q": "In a distributed system, which property hides the location of resources?",
+   "options": [
+    "Fault tolerance",
+    "Transparency",
+    "Scalability",
+    "Openness"
+   ],
+   "answer": 1,
+   "explain": "Transparency (location transparency) hides where resources physically reside."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Distributed Systems & Blockchain",
+   "q": "Which is NOT a characteristic of a distributed system?",
+   "options": [
+    "Concurrency",
+    "Single point of failure by design",
+    "Transparency",
+    "Resource sharing"
+   ],
+   "answer": 1,
+   "explain": "Distributed systems aim to avoid single points of failure."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Distributed Systems & Blockchain",
+   "q": "Leader election algorithms in distributed systems are primarily used to:",
+   "options": [
+    "Assign IP addresses",
+    "Decide which node coordinates tasks",
+    "Encrypt data",
+    "Authenticate users"
+   ],
+   "answer": 1,
+   "explain": "Leader election picks one coordinator node (e.g., Bully, Ring algorithms)."
+  },
+  {
+   "source": "Blooket",
+   "topic": "GSM / Cellular",
+   "q": "Which protocol secures Diameter signaling in LTE/5G core networks?",
+   "options": [
+    "IPsec",
+    "TLS",
+    "SSH",
+    "GRE"
+   ],
+   "answer": 0,
+   "explain": "3GPP Network Domain Security (NDS/IP) protects inter-operator Diameter with IPsec."
+  },
+  {
+   "source": "Blooket",
+   "topic": "Distributed Systems & Blockchain",
+   "q": "Which technology makes blockchain records tamper-resistant?",
+   "options": [
+    "Plain text logs",
+    "Hash linking",
+    "Open Wi-Fi access",
+    "HTTP cookies"
+   ],
+   "answer": 1,
+   "explain": "Each block contains the hash of the previous block; altering one block breaks every later link."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Signals & Media",
+   "q": "Which data/signal combination describes a traditional landline telephone call?",
+   "options": [
+    "Analog data, analog signal",
+    "Analog data, digital signal",
+    "Digital data, analog signal",
+    "Digital data, digital signal"
+   ],
+   "answer": 0,
+   "explain": "Voice (analog data) carried as a continuous electrical waveform (analog signal)."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Signals & Media",
+   "q": "For transmitting login credentials, which is more secure: analog or digital transmission?",
+   "options": [
+    "Analog, because continuous waveforms are harder to copy",
+    "Digital, because it supports CRC, parity, encryption, and message authentication",
+    "Analog, because it needs no repeaters",
+    "They are equally secure; only the medium matters"
+   ],
+   "answer": 1,
+   "explain": "Digital allows CRC/parity, encryption, and message authentication. Analog lacks structure and can't detect tampering."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Signals & Media",
+   "q": "In a very noisy environment, which is the safer way to raise data rate: add bandwidth or add signal levels (M)?",
+   "options": [
+    "Add more signal levels; it needs no extra spectrum",
+    "Add bandwidth; more levels are harder to tell apart in noise, causing bit errors",
+    "Either one; noise does not affect signal levels",
+    "Add more levels, because errors help mask the signal from attackers"
+   ],
+   "answer": 1,
+   "explain": "More levels are closer together, so noise causes bit errors, which can break TLS handshakes and key exchanges."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Networks & Switching",
+   "q": "Which switching approach reserves a dedicated end-to-end path before data flows, fitting constant-rate voice calls?",
+   "options": [
+    "Packet switching",
+    "Circuit switching",
+    "Datagram forwarding",
+    "Store-and-forward routing"
+   ],
+   "answer": 1,
+   "explain": "Circuit switching sets up a dedicated path with fixed bandwidth. Packet switching suits bursty data."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Networks & Switching",
+   "q": "In the packet-size / MTU ping lab, why isn't it always better to send fewer, larger packets?",
+   "options": [
+    "Larger packets are always dropped by firewalls",
+    "A packet above the path MTU must be fragmented (or fails with 'don't fragment'), adding overhead and risk",
+    "Smaller packets are illegal on the Internet",
+    "Larger packets cannot be encrypted"
+   ],
+   "answer": 1,
+   "explain": "Fragmentation adds headers and reassembly work; losing one fragment loses the whole packet."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wi-Fi / 802.11",
+   "q": "On the 2.4 GHz band, which channels are non-overlapping?",
+   "options": [
+    "1, 2, 3",
+    "1, 6, 11",
+    "2, 5, 8",
+    "All channels overlap equally"
+   ],
+   "answer": 1,
+   "explain": "Channels 1, 6, 11. If congested on 6, move to 1 or 11."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wi-Fi / 802.11",
+   "q": "Why can a single SSID show up with multiple BSSIDs?",
+   "options": [
+    "It's a configuration bug",
+    "Multiple APs extend coverage and allow roaming / load balancing",
+    "Each BSSID is a different password",
+    "The SSID is being spoofed every time"
+   ],
+   "answer": 1,
+   "explain": "One SSID across several APs (each with its own BSSID/MAC) extends coverage and enables roaming."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wi-Fi / 802.11",
+   "q": "AP-A: 80% signal on 5 GHz, low congestion. AP-B: 55% signal on 2.4 GHz, many neighbors. Which gives higher capacity?",
+   "options": [
+    "AP-B, because 2.4 GHz travels farther",
+    "AP-A, because higher signal (better SNR) and wider, less-crowded 5 GHz spectrum",
+    "Neither; capacity depends only on the password",
+    "AP-B, because more neighbors means more shared bandwidth"
+   ],
+   "answer": 1,
+   "explain": "Shannon: capacity grows with bandwidth and SNR. AP-A wins on both."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wireless Attacks",
+   "q": "A WPA2 handshake-capture-and-crack attack works because the captured file contains which messages?",
+   "options": [
+    "The plaintext password in the beacon",
+    "The EAPOL messages of the 4-way handshake",
+    "The DHCP lease",
+    "The DNS queries of every client"
+   ],
+   "answer": 1,
+   "explain": "EAPOL messages let an attacker test passphrases offline (e.g., RockYou wordlist)."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wireless Attacks",
+   "q": "Deauth and evil-twin attacks are possible because which 802.11 frames are unprotected?",
+   "options": [
+    "Encrypted data frames",
+    "Management frames (beacons, deauth, association), sent in cleartext even on WPA2/WPA3",
+    "TCP acknowledgments",
+    "VPN tunnel packets"
+   ],
+   "answer": 1,
+   "explain": "Cleartext management frames can be forged (deauth) or spoofed (fake beacons). 802.11w/PMF mitigates this."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Bluetooth & ZigBee",
+   "q": "A PC is paired with both a phone and a headset at once. In piconet terms, the PC is:",
+   "options": [
+    "A slave to both devices",
+    "The master of the piconet",
+    "A scatternet bridge only",
+    "An access point"
+   ],
+   "answer": 1,
+   "explain": "One master coordinates up to 7 active slaves and sets the hopping sequence/clock."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "VPN & Defenses",
+   "q": "In the Wireshark VPN lab, what changed between the no-VPN capture and the VPN capture?",
+   "options": [
+    "Packets stopped being sent entirely",
+    "Packets were still visible, but their contents became unreadable ciphertext",
+    "The Wi-Fi password appeared in plaintext",
+    "Latency dropped to zero"
+   ],
+   "answer": 1,
+   "explain": "Without VPN: plaintext DNS/HTTP. With VPN: you see packets exist, not what they contain."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "VPN & Defenses",
+   "q": "Which attack would a VPN NOT fully protect you against?",
+   "options": [
+    "Eavesdropping on your web traffic",
+    "A deauthentication attack, because it targets unprotected 802.11 management frames",
+    "Man-in-the-middle on HTTP",
+    "DNS sniffing"
+   ],
+   "answer": 1,
+   "explain": "Deauth forges management frames below the tunnel and knocks you off regardless of the VPN."
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "VPN & Defenses",
+   "q": "Which Wi-Fi configuration is safer for confidentiality?",
+   "options": [
+    "An Open network, because anyone can connect",
+    "WPA2-PSK or WPA3 with AES",
+    "Hiding the SSID alone",
+    "MAC address filtering alone"
+   ],
+   "answer": 1,
+   "explain": "Open encrypts nothing. Hidden SSIDs and MAC filtering are trivially bypassed and encrypt nothing."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "q": "A channel spans 3 MHz to 4 MHz with SNR = 24 dB (~251). Approximate Shannon capacity?",
+   "options": [
+    "2 Mbps",
+    "8 Mbps",
+    "24 Mbps",
+    "32 Mbps"
+   ],
+   "answer": 1,
+   "explain": "B = 1 MHz. C = B log2(1+SNR) = 10^6 x log2(252) ~ 8 Mbps."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "q": "For C = 8 Mbps and B = 1 MHz, how many signal levels M does Nyquist require?",
+   "options": [
+    "4",
+    "8",
+    "16",
+    "256"
+   ],
+   "answer": 2,
+   "explain": "C = 2B log2 M -> 8 = 2 log2 M -> M = 16."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "q": "Why do digital systems use repeaters rather than amplifiers?",
+   "options": [
+    "Repeaters are cheaper",
+    "Repeaters regenerate a clean signal; amplifiers boost the noise too",
+    "Amplifiers only work on fiber",
+    "Repeaters add encryption"
+   ],
+   "answer": 1,
+   "explain": "A repeater recovers the 1s/0s and retransmits cleanly, so noise doesn't accumulate."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "q": "A gain of +3 dB corresponds to roughly:",
+   "options": [
+    "Tripling power",
+    "Doubling power",
+    "10x power",
+    "No change"
+   ],
+   "answer": 1,
+   "explain": "10 log10(2) ~ 3 dB. +10 dB = 10x."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "q": "If coherence bandwidth Bc >> signal bandwidth Bs, the channel experiences:",
+   "options": [
+    "Fast fading",
+    "Flat fading",
+    "Frequency-selective fading",
+    "Doppler spread"
+   ],
+   "answer": 1,
+   "explain": "The whole signal sees the same channel response: flat fading. Fast vs slow fading depends on coherence time."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "q": "Free-space path loss increases with:",
+   "options": [
+    "Lower frequency and shorter distance",
+    "Higher frequency and longer distance",
+    "Only antenna height",
+    "Only transmit power"
+   ],
+   "answer": 1,
+   "explain": "FSPL ~ (4 pi d f / c)^2, which is why 2.4 GHz reaches farther than 5 GHz."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Networks & Switching",
+   "q": "Which packet-switching approach establishes a preplanned route and delivers packets in order?",
+   "options": [
+    "Datagram",
+    "Circuit switching",
+    "Virtual circuit",
+    "Frequency hopping"
+   ],
+   "answer": 2,
+   "explain": "Virtual circuit: route set up first, but packets are still buffered/queued (not a dedicated path)."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Networks & Switching",
+   "q": "In TCP/IP encapsulation, what does the IP layer produce?",
+   "options": [
+    "TCP segment",
+    "IP datagram",
+    "Frame",
+    "Bit stream"
+   ],
+   "answer": 1,
+   "explain": "Data -> TCP segment -> IP datagram -> network-access frame."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "q": "Why does 802.11 use CSMA/CA instead of CSMA/CD?",
+   "options": [
+    "Wireless radios can't reliably detect collisions while transmitting (e.g., hidden terminals)",
+    "CSMA/CD is too secure",
+    "CA is faster on cable",
+    "802.11 has no shared medium"
+   ],
+   "answer": 0,
+   "explain": "A radio can't listen while sending, and hidden nodes can't hear each other, so 802.11 avoids collisions instead of detecting them."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "q": "Which mechanism addresses the hidden-terminal problem in 802.11?",
+   "options": [
+    "Beacons",
+    "RTS/CTS",
+    "Probe requests",
+    "WEP"
+   ],
+   "answer": 1,
+   "explain": "The AP's CTS is heard by all stations, including the hidden one, which then defers."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "q": "An Extended Service Set (ESS) is:",
+   "options": [
+    "A single AP and its clients",
+    "Two or more BSSs connected by a distribution system",
+    "An ad hoc network",
+    "A Bluetooth scatternet"
+   ],
+   "answer": 1,
+   "explain": "BSS = one AP + stations. ESS = multiple BSSs joined by a DS, appearing as one network (one SSID)."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "q": "RTS, CTS, and ACK are which type of 802.11 frame?",
+   "options": [
+    "Management",
+    "Control",
+    "Data",
+    "Beacon"
+   ],
+   "answer": 1,
+   "explain": "Control frames manage medium access. Beacons/association/deauth are management frames."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "q": "In WPA2, the PTK is derived from:",
+   "options": [
+    "The SSID only",
+    "PMK, ANonce, SNonce, and both MAC addresses",
+    "The GTK",
+    "The beacon interval"
+   ],
+   "answer": 1,
+   "explain": "PTK = PRF(PMK, ANonce, SNonce, AP MAC, STA MAC). The GTK protects broadcast/multicast."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wireless Attacks",
+   "q": "KRACK exploits which weakness?",
+   "options": [
+    "Weak SSIDs",
+    "Replaying handshake message 3 forces key reinstallation and nonce reuse",
+    "Bluetooth pairing",
+    "GSM A5/1"
+   ],
+   "answer": 1,
+   "explain": "Reinstalling an in-use key resets nonces, so keystream is reused and traffic can be decrypted/replayed."
+  },
+  {
+   "source": "Lecture",
+   "topic": "VPN & Defenses",
+   "q": "WPA3-Personal resists offline dictionary attacks by replacing PSK with:",
+   "options": [
+    "WEP",
+    "SAE (Dragonfly handshake)",
+    "TKIP",
+    "MAC filtering"
+   ],
+   "answer": 1,
+   "explain": "SAE: each password guess requires a live interaction, so captured handshakes can't be cracked offline."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Bluetooth & ZigBee",
+   "q": "A device participating in two or more piconets forms a:",
+   "options": [
+    "BSS",
+    "Scatternet",
+    "Mesh cell",
+    "ESS"
+   ],
+   "answer": 1,
+   "explain": "Overlapping piconets linked by a shared device = scatternet."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Bluetooth & ZigBee",
+   "q": "ZigBee is built on which IEEE standard?",
+   "options": [
+    "802.11",
+    "802.15.1",
+    "802.15.4",
+    "802.16"
+   ],
+   "answer": 2,
+   "explain": "802.15.4 defines PHY/MAC. 802.15.1 is (classic) Bluetooth."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Bluetooth & ZigBee",
+   "q": "Which ZigBee device type starts the network and is always present?",
+   "options": [
+    "End device",
+    "Router",
+    "Coordinator",
+    "Master"
+   ],
+   "answer": 2,
+   "explain": "One coordinator per network; routers extend the mesh; end devices sleep to save power."
+  },
+  {
+   "source": "Lecture",
+   "topic": "GSM / Cellular",
+   "q": "A major GSM weakness enabling fake base stations (IMSI catchers) is:",
+   "options": [
+    "Mutual authentication",
+    "Only the phone is authenticated; the network is not",
+    "No encryption exists",
+    "SIMs have no keys"
+   ],
+   "answer": 1,
+   "explain": "GSM authentication is one-way, so a rogue BTS can impersonate the network (and even request no encryption). 3G/UMTS added mutual auth."
+  },
+  {
+   "source": "Lecture",
+   "topic": "GSM / Cellular",
+   "q": "Which GSM algorithm generates the session cipher key Kc?",
+   "options": [
+    "A3",
+    "A5",
+    "A8",
+    "COMP128 only"
+   ],
+   "answer": 2,
+   "explain": "A3 = authentication (SRES), A8 = key generation (Kc), A5 = air-interface encryption."
+  },
+  {
+   "source": "Lecture",
+   "topic": "GSM / Cellular",
+   "q": "Where is the subscriber secret key Ki stored?",
+   "options": [
+    "Only in the phone handset",
+    "On the SIM and in the AuC",
+    "In the VLR",
+    "Broadcast by the BTS"
+   ],
+   "answer": 1,
+   "explain": "Ki is shared only between the SIM and the Authentication Center."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Distributed Systems & Blockchain",
+   "q": "In Bitcoin, double spending is prevented by:",
+   "options": [
+    "A central bank",
+    "A timestamped, proof-of-work chain; the longest chain is accepted",
+    "Encrypting each coin",
+    "Wi-Fi authentication"
+   ],
+   "answer": 1,
+   "explain": "Nodes accept the chain with the most cumulative work; rewriting history requires out-computing the honest majority."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Distributed Systems & Blockchain",
+   "q": "An attacker can rewrite Bitcoin history only if they control:",
+   "options": [
+    "One node",
+    "A majority of the network's hash power",
+    "The longest Wi-Fi range",
+    "The genesis block"
+   ],
+   "answer": 1,
+   "explain": "The 51% attack: with majority CPU power, an attacker can outpace honest nodes."
+  }
+ ],
+ "matching": [
+  {
+   "source": "Jeopardy",
+   "topic": "Signals & Media",
+   "prompt": "Match each communication method to its data/signal combination.",
+   "pairs": [
+    [
+     "Landline telephone",
+     "Analog data, analog signal"
+    ],
+    [
+     "Voice over IP",
+     "Analog data, digital signal"
+    ],
+    [
+     "Email over dial-up",
+     "Digital data, analog signal"
+    ],
+    [
+     "USB flash drive",
+     "Digital data, digital signal"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Signals & Media",
+   "prompt": "Match each guided or unguided medium to a defining trait.",
+   "pairs": [
+    [
+     "Optical fiber",
+     "Very high bandwidth, immune to EMI"
+    ],
+    [
+     "Twisted pair (CAT5/CAT6)",
+     "Cheap copper; susceptible to EMI and crosstalk"
+    ],
+    [
+     "Microwave (line-of-sight)",
+     "Directional beam that can be intercepted or jammed"
+    ],
+    [
+     "Infrared",
+     "Short-range, confined to a room; blocked by walls"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Networks & Switching",
+   "prompt": "At WSU, match each scope to the right network classification.",
+   "pairs": [
+    [
+     "Computers and printers inside one Tri-Cities lab",
+     "LAN"
+    ],
+    [
+     "Fiber links among buildings on the Tri-Cities campus",
+     "MAN"
+    ],
+    [
+     "Tri-Cities to Pullman and out to the Internet",
+     "WAN / Internet"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Networks & Switching",
+   "prompt": "Match each bus-topology security weakness to its description.",
+   "pairs": [
+    [
+     "Eavesdropping",
+     "Any device on the shared medium can sniff traffic meant for others"
+    ],
+    [
+     "Unauthorized access",
+     "A rogue device plugged into the bus immediately sees all traffic"
+    ],
+    [
+     "Data integrity",
+     "A malicious node injects or alters packets on the shared line"
+    ],
+    [
+     "Denial of service",
+     "One node jams the bus by transmitting continuously"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Networks & Switching",
+   "prompt": "QoS: match each Zoom-vs-YouTube lab observation to its reason.",
+   "pairs": [
+    [
+     "Zoom stays smooth even while YouTube plays",
+     "Interactive real-time traffic is prioritized by QoS"
+    ],
+    [
+     "YouTube tolerates delay far better than Zoom",
+     "It buffers ahead, so brief delays don't interrupt playback"
+    ],
+    [
+     "QoS effects only show up when the link is congested",
+     "With abundant bandwidth nothing has to be prioritized"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wi-Fi / 802.11",
+   "prompt": "Match each 802.11 management frame fact from the Wireshark lab.",
+   "pairs": [
+    [
+     "Beacon frame",
+     "Sent to broadcast so nearby devices hear the AP advertise itself"
+    ],
+    [
+     "Association Request",
+     "Sent the first time a client connects to an AP"
+    ],
+    [
+     "Reassociation Request",
+     "Sent when a client roams to a new AP within the same ESS"
+    ],
+    [
+     "Addr1 vs Addr2 in a beacon",
+     "Addr1 = receiver (broadcast); Addr2 = transmitting AP's MAC"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wi-Fi / 802.11",
+   "prompt": "Match each Wi-Fi access / medium-sharing term to its meaning.",
+   "pairs": [
+    [
+     "CSMA/CA",
+     "Listen before transmitting to avoid collisions on the shared air"
+    ],
+    [
+     "OFDM",
+     "Splits the channel into many orthogonal subcarriers"
+    ],
+    [
+     "SSID",
+     "The human-readable network name"
+    ],
+    [
+     "BSSID",
+     "A specific access point's MAC address"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wireless Attacks",
+   "prompt": "Match each Wi-Fi attack to its description.",
+   "pairs": [
+    [
+     "Eavesdropping / Sniffing",
+     "Passively capturing wireless traffic off the air"
+    ],
+    [
+     "Evil Twin (Rogue AP)",
+     "A fake AP mimicking a legitimate SSID to lure clients"
+    ],
+    [
+     "Deauthentication attack",
+     "Forging frames that kick a client off its AP"
+    ],
+    [
+     "Man-in-the-Middle",
+     "Secretly relaying and possibly altering traffic between two parties"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Wireless Attacks",
+   "prompt": "Order the WPA2 4-way handshake: match each step to its message.",
+   "pairs": [
+    [
+     "Step 1",
+     "AP -> STA: ANonce"
+    ],
+    [
+     "Step 2",
+     "STA -> AP: SNonce + MIC (STA builds the PTK)"
+    ],
+    [
+     "Step 3",
+     "AP -> STA: GTK + MIC (AP builds the PTK)"
+    ],
+    [
+     "Step 4",
+     "STA -> AP: ACK"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "VPN & Defenses",
+   "prompt": "Match each secure-design choice to what it provides.",
+   "pairs": [
+    [
+     "AES encryption of each session",
+     "Confidentiality of the message contents"
+    ],
+    [
+     "TDM (time-division) slots per user",
+     "Isolation: each user gets a dedicated time slot"
+    ],
+    [
+     "CDM / spread spectrum layered on top",
+     "Scaling more users plus jam/interception resistance"
+    ],
+    [
+     "Message authentication code (MIC)",
+     "Integrity: detects tampering and proves origin"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "Bluetooth & ZigBee",
+   "prompt": "Match each Bluetooth security fact from the lab.",
+   "pairs": [
+    [
+     "Common Bluetooth attacks",
+     "Bluejacking, bluesnarfing, bluebugging, eavesdropping on pairing"
+    ],
+    [
+     "Piconet size",
+     "One master plus up to seven active slaves"
+    ],
+    [
+     "BLE 'phantom' device out of range",
+     "CM_PROB_PHANTOM / Present=False entry that disappears out of range"
+    ],
+    [
+     "Bluetooth defense basics",
+     "Trusted pairing only, non-discoverable, patched firmware, strong pairing"
+    ]
+   ]
+  },
+  {
+   "source": "Jeopardy",
+   "topic": "VPN & Defenses",
+   "prompt": "FINAL JEOPARDY: Student on Tailscale VPN over untrusted Wi-Fi. Match each attack to how well the VPN protects against it.",
+   "pairs": [
+    [
+     "Eavesdropping / Sniffing",
+     "Protected: payload is encrypted ciphertext"
+    ],
+    [
+     "Man-in-the-Middle on contents",
+     "Protected: attacker sees only ciphertext, can't read/alter"
+    ],
+    [
+     "Handshake capture + offline crack",
+     "Protected at app layer: VPN payload stays encrypted regardless of Wi-Fi key"
+    ],
+    [
+     "DNS/HTTP snooping",
+     "Protected: queries/requests are inside the tunnel"
+    ],
+    [
+     "KRACK (key reinstallation)",
+     "Mostly mitigated: VPN encrypts above the Wi-Fi layer"
+    ],
+    [
+     "Deauthentication attack",
+     "NOT protected: forges 802.11 management frames below the tunnel"
+    ]
+   ]
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wireless Basics",
+   "prompt": "Match each network range category to an example technology.",
+   "pairs": [
+    [
+     "WPAN",
+     "Bluetooth / ZigBee"
+    ],
+    [
+     "WLAN",
+     "Wi-Fi (802.11)"
+    ],
+    [
+     "WWAN",
+     "LTE / 5G cellular"
+    ],
+    [
+     "Ad hoc",
+     "Devices talk directly with no AP"
+    ]
+   ]
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "prompt": "Match each 802.11 amendment to its description.",
+   "pairs": [
+    [
+     "802.11b",
+     "2.4 GHz, up to 11 Mbps (DSSS)"
+    ],
+    [
+     "802.11a",
+     "5 GHz, up to 54 Mbps (OFDM)"
+    ],
+    [
+     "802.11n (Wi-Fi 4)",
+     "MIMO on 2.4 and 5 GHz"
+    ],
+    [
+     "802.11ac (Wi-Fi 5)",
+     "5 GHz, wide channels, MU-MIMO downlink"
+    ],
+    [
+     "802.11ax (Wi-Fi 6)",
+     "OFDMA, efficiency in dense environments"
+    ]
+   ]
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "prompt": "Match each 802.11 frame type to an example.",
+   "pairs": [
+    [
+     "Management frame",
+     "Beacon, association, deauthentication"
+    ],
+    [
+     "Control frame",
+     "RTS, CTS, ACK"
+    ],
+    [
+     "Data frame",
+     "Carries upper-layer payload"
+    ]
+   ]
+  },
+  {
+   "source": "Lecture",
+   "topic": "GSM / Cellular",
+   "prompt": "Match each GSM component to its role.",
+   "pairs": [
+    [
+     "SIM",
+     "Stores IMSI and secret key Ki"
+    ],
+    [
+     "BTS",
+     "Radio transceiver serving a cell"
+    ],
+    [
+     "BSC",
+     "Controls a group of BTSs, handles handoff/radio resources"
+    ],
+    [
+     "MSC",
+     "Switches calls and connects to other networks"
+    ],
+    [
+     "HLR",
+     "Permanent subscriber database"
+    ],
+    [
+     "VLR",
+     "Temporary data for subscribers currently in the area"
+    ],
+    [
+     "AuC",
+     "Holds Ki and generates authentication triplets"
+    ]
+   ]
+  },
+  {
+   "source": "Lecture",
+   "topic": "GSM / Cellular",
+   "prompt": "Match each GSM security algorithm to its function.",
+   "pairs": [
+    [
+     "A3",
+     "Authentication: computes SRES from RAND and Ki"
+    ],
+    [
+     "A8",
+     "Generates the session cipher key Kc"
+    ],
+    [
+     "A5",
+     "Encrypts the air interface using Kc"
+    ]
+   ]
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "prompt": "Match each propagation mechanism to its cause.",
+   "pairs": [
+    [
+     "Reflection",
+     "Signal bounces off a large smooth surface"
+    ],
+    [
+     "Diffraction",
+     "Signal bends around the edge of an obstacle"
+    ],
+    [
+     "Scattering",
+     "Signal hits objects smaller than its wavelength and spreads"
+    ]
+   ]
+  },
+  {
+   "source": "Lecture",
+   "topic": "Bluetooth & ZigBee",
+   "prompt": "Match each Bluetooth attack to its description.",
+   "pairs": [
+    [
+     "Bluejacking",
+     "Sending unsolicited messages to discoverable devices"
+    ],
+    [
+     "Bluesnarfing",
+     "Stealing data (contacts, files) without authorization"
+    ],
+    [
+     "Bluebugging",
+     "Taking control of the device to issue commands"
+    ]
+   ]
+  },
+  {
+   "source": "Lecture",
+   "topic": "Distributed Systems & Blockchain",
+   "prompt": "Match each Bitcoin concept to its purpose.",
+   "pairs": [
+    [
+     "Hash linking",
+     "Each block references the previous block's hash"
+    ],
+    [
+     "Proof of work",
+     "Makes rewriting history computationally expensive"
+    ],
+    [
+     "Longest chain rule",
+     "Nodes accept the chain with the most cumulative work"
+    ],
+    [
+     "Merkle tree",
+     "Compresses transaction hashes into one root"
+    ]
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "front": "BSS vs ESS",
+   "back": "BSS: one AP + its stations. ESS: multiple BSSs joined by a distribution system, shared SSID."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "front": "PMK / PTK / GTK",
+   "back": "PMK: from passphrase (PSK) or 802.1X. PTK: per-session unicast key from 4-way handshake. GTK: group key for broadcast/multicast."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "front": "Probe request vs Beacon",
+   "back": "Probe request: client actively asks for networks. Beacon: AP passively advertises itself (~every 100 ms)."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wi-Fi / 802.11",
+   "front": "Hidden terminal problem",
+   "back": "Two stations can hear the AP but not each other, so they collide at the AP. Fixed by RTS/CTS."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "front": "Shannon capacity",
+   "back": "C = B log2(1 + SNR). Max error-free rate for bandwidth B and SNR (linear, not dB)."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "front": "Nyquist capacity",
+   "back": "C = 2B log2 M. Noise-free; M = number of signal levels."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Signals & Media",
+   "front": "dB conversion",
+   "back": "SNR_dB = 10 log10(SNR). 3 dB ~ 2x, 10 dB = 10x, 20 dB = 100x."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Networks & Switching",
+   "front": "MTU",
+   "back": "Maximum Transmission Unit: largest packet a link carries without fragmentation (1500 bytes on Ethernet)."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Networks & Switching",
+   "front": "QoS",
+   "back": "Quality of Service: prioritizes latency-sensitive traffic (VoIP, video calls) when links are congested."
+  },
+  {
+   "source": "Lecture",
+   "topic": "GSM / Cellular",
+   "front": "IMSI vs TMSI",
+   "back": "IMSI: permanent identity on SIM. TMSI: temporary alias sent over the air to hide the IMSI."
+  },
+  {
+   "source": "Lecture",
+   "topic": "GSM / Cellular",
+   "front": "GSM authentication flow",
+   "back": "Network sends RAND; SIM computes SRES = A3(Ki, RAND) and Kc = A8(Ki, RAND); network compares SRES; A5 encrypts with Kc."
+  },
+  {
+   "source": "Lecture",
+   "topic": "GSM / Cellular",
+   "front": "IMSI catcher",
+   "back": "Fake base station exploiting GSM's one-way authentication to capture IMSIs or downgrade encryption."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Bluetooth & ZigBee",
+   "front": "Bluetooth basics",
+   "back": "2.4 GHz ISM, 79 x 1 MHz channels, FHSS at 1600 hops/s, IEEE 802.15.1, piconet = 1 master + 7 active slaves."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Bluetooth & ZigBee",
+   "front": "ZigBee basics",
+   "back": "IEEE 802.15.4, low power/low rate, mesh. Coordinator, router, end device. Joins via beacon request."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Wireless Attacks",
+   "front": "KRACK",
+   "back": "Key Reinstallation Attack: replay message 3 of the 4-way handshake, forcing nonce reuse so traffic can be decrypted."
+  },
+  {
+   "source": "Lecture",
+   "topic": "VPN & Defenses",
+   "front": "802.11w / PMF",
+   "back": "Protected Management Frames: authenticates deauth/disassoc frames to stop forged deauth attacks. Required in WPA3."
+  },
+  {
+   "source": "Lecture",
+   "topic": "Distributed Systems & Blockchain",
+   "front": "Distributed system characteristics",
+   "back": "Resource sharing, concurrency, transparency, scalability, fault tolerance, openness. No single point of failure by design."
+  }
+ ],
+ "acronyms": [
+  {
+   "a": "WPAN",
+   "full": "Wireless Personal Area Network",
+   "topic": "Wireless Basics",
+   "note": "Bluetooth, ZigBee; ~10 m"
+  },
+  {
+   "a": "WLAN",
+   "full": "Wireless Local Area Network",
+   "topic": "Wireless Basics",
+   "note": "Wi-Fi"
+  },
+  {
+   "a": "WWAN",
+   "full": "Wireless Wide Area Network",
+   "topic": "Wireless Basics",
+   "note": "LTE/5G cellular, satellite"
+  },
+  {
+   "a": "LAN",
+   "full": "Local Area Network",
+   "topic": "Networks & Switching",
+   "note": ""
+  },
+  {
+   "a": "MAN",
+   "full": "Metropolitan Area Network",
+   "topic": "Networks & Switching",
+   "note": "campus/city scale"
+  },
+  {
+   "a": "WAN",
+   "full": "Wide Area Network",
+   "topic": "Networks & Switching",
+   "note": ""
+  },
+  {
+   "a": "IoT",
+   "full": "Internet of Things",
+   "topic": "Wireless Basics",
+   "note": ""
+  },
+  {
+   "a": "IEEE",
+   "full": "Institute of Electrical and Electronics Engineers",
+   "topic": "Wireless Basics",
+   "note": "publishes 802.x standards"
+  },
+  {
+   "a": "OSI",
+   "full": "Open Systems Interconnection",
+   "topic": "Networks & Switching",
+   "note": "7-layer reference model"
+  },
+  {
+   "a": "LTE",
+   "full": "Long-Term Evolution",
+   "topic": "GSM / Cellular",
+   "note": "4G cellular"
+  },
+  {
+   "a": "NFC",
+   "full": "Near-Field Communication",
+   "topic": "Wireless Basics",
+   "note": "few cm range"
+  },
+  {
+   "a": "ISM",
+   "full": "Industrial, Scientific and Medical (band)",
+   "topic": "Wireless Basics",
+   "note": "unlicensed 2.4 GHz / 5.8 GHz"
+  },
+  {
+   "a": "AP",
+   "full": "Access Point",
+   "topic": "Wi-Fi / 802.11",
+   "note": ""
+  },
+  {
+   "a": "STA",
+   "full": "Station",
+   "topic": "Wi-Fi / 802.11",
+   "note": "a Wi-Fi client device"
+  },
+  {
+   "a": "SSID",
+   "full": "Service Set Identifier",
+   "topic": "Wi-Fi / 802.11",
+   "note": "network name"
+  },
+  {
+   "a": "BSSID",
+   "full": "Basic Service Set Identifier",
+   "topic": "Wi-Fi / 802.11",
+   "note": "AP radio's MAC address"
+  },
+  {
+   "a": "BSS",
+   "full": "Basic Service Set (Wi-Fi) / Base Station Subsystem (GSM)",
+   "topic": "Wi-Fi / 802.11",
+   "note": "Wi-Fi: one AP + clients. GSM: BTS + BSC"
+  },
+  {
+   "a": "ESS",
+   "full": "Extended Service Set",
+   "topic": "Wi-Fi / 802.11",
+   "note": "multiple BSSs, one SSID"
+  },
+  {
+   "a": "DS",
+   "full": "Distribution System",
+   "topic": "Wi-Fi / 802.11",
+   "note": "links APs in an ESS"
+  },
+  {
+   "a": "CSMA/CA",
+   "full": "Carrier Sense Multiple Access with Collision Avoidance",
+   "topic": "Wi-Fi / 802.11",
+   "note": "Wi-Fi"
+  },
+  {
+   "a": "CSMA/CD",
+   "full": "Carrier Sense Multiple Access with Collision Detection",
+   "topic": "Networks & Switching",
+   "note": "wired Ethernet"
+  },
+  {
+   "a": "RTS",
+   "full": "Request to Send",
+   "topic": "Wi-Fi / 802.11",
+   "note": "control frame"
+  },
+  {
+   "a": "CTS",
+   "full": "Clear to Send",
+   "topic": "Wi-Fi / 802.11",
+   "note": "control frame"
+  },
+  {
+   "a": "ACK",
+   "full": "Acknowledgment",
+   "topic": "Wi-Fi / 802.11",
+   "note": "control frame"
+  },
+  {
+   "a": "OFDM",
+   "full": "Orthogonal Frequency-Division Multiplexing",
+   "topic": "Wi-Fi / 802.11",
+   "note": ""
+  },
+  {
+   "a": "OFDMA",
+   "full": "Orthogonal Frequency-Division Multiple Access",
+   "topic": "Wi-Fi / 802.11",
+   "note": "Wi-Fi 6, LTE"
+  },
+  {
+   "a": "MIMO",
+   "full": "Multiple-Input Multiple-Output",
+   "topic": "Wi-Fi / 802.11",
+   "note": "802.11n+"
+  },
+  {
+   "a": "MU-MIMO",
+   "full": "Multi-User Multiple-Input Multiple-Output",
+   "topic": "Wi-Fi / 802.11",
+   "note": "802.11ac/ax"
+  },
+  {
+   "a": "DSSS",
+   "full": "Direct-Sequence Spread Spectrum",
+   "topic": "Signals & Media",
+   "note": "802.11b"
+  },
+  {
+   "a": "FHSS",
+   "full": "Frequency-Hopping Spread Spectrum",
+   "topic": "Bluetooth & ZigBee",
+   "note": "Bluetooth"
+  },
+  {
+   "a": "MAC",
+   "full": "Medium Access Control (layer) / Message Authentication Code",
+   "topic": "Wi-Fi / 802.11",
+   "note": "context decides which"
+  },
+  {
+   "a": "PHY",
+   "full": "Physical layer",
+   "topic": "Signals & Media",
+   "note": ""
+  },
+  {
+   "a": "WEP",
+   "full": "Wired Equivalent Privacy",
+   "topic": "VPN & Defenses",
+   "note": "broken; RC4"
+  },
+  {
+   "a": "WPA",
+   "full": "Wi-Fi Protected Access",
+   "topic": "VPN & Defenses",
+   "note": "WPA2 = AES-CCMP; WPA3 = SAE"
+  },
+  {
+   "a": "PSK",
+   "full": "Pre-Shared Key",
+   "topic": "VPN & Defenses",
+   "note": "WPA2-Personal"
+  },
+  {
+   "a": "SAE",
+   "full": "Simultaneous Authentication of Equals",
+   "topic": "VPN & Defenses",
+   "note": "WPA3 Dragonfly handshake"
+  },
+  {
+   "a": "AES",
+   "full": "Advanced Encryption Standard",
+   "topic": "VPN & Defenses",
+   "note": ""
+  },
+  {
+   "a": "CCMP",
+   "full": "Counter Mode with CBC-MAC Protocol",
+   "topic": "VPN & Defenses",
+   "note": "WPA2's AES-based encryption"
+  },
+  {
+   "a": "TKIP",
+   "full": "Temporal Key Integrity Protocol",
+   "topic": "VPN & Defenses",
+   "note": "WPA1, deprecated"
+  },
+  {
+   "a": "EAP",
+   "full": "Extensible Authentication Protocol",
+   "topic": "Wi-Fi / 802.11",
+   "note": ""
+  },
+  {
+   "a": "EAPOL",
+   "full": "EAP over LAN",
+   "topic": "Wi-Fi / 802.11",
+   "note": "carries the 4-way handshake"
+  },
+  {
+   "a": "PMK",
+   "full": "Pairwise Master Key",
+   "topic": "Wi-Fi / 802.11",
+   "note": ""
+  },
+  {
+   "a": "PTK",
+   "full": "Pairwise Transient Key",
+   "topic": "Wi-Fi / 802.11",
+   "note": "per-session unicast key"
+  },
+  {
+   "a": "GTK",
+   "full": "Group Temporal Key",
+   "topic": "Wi-Fi / 802.11",
+   "note": "broadcast/multicast key"
+  },
+  {
+   "a": "MIC",
+   "full": "Message Integrity Code",
+   "topic": "Wi-Fi / 802.11",
+   "note": "integrity check in the handshake"
+  },
+  {
+   "a": "ANonce",
+   "full": "Authenticator Nonce",
+   "topic": "Wi-Fi / 802.11",
+   "note": "nonce = number used once; from the AP"
+  },
+  {
+   "a": "SNonce",
+   "full": "Supplicant Nonce",
+   "topic": "Wi-Fi / 802.11",
+   "note": "from the client (STA)"
+  },
+  {
+   "a": "PMF",
+   "full": "Protected Management Frames",
+   "topic": "VPN & Defenses",
+   "note": "802.11w; blocks forged deauth"
+  },
+  {
+   "a": "KRACK",
+   "full": "Key Reinstallation Attack",
+   "topic": "Wireless Attacks",
+   "note": ""
+  },
+  {
+   "a": "MitM",
+   "full": "Man-in-the-Middle",
+   "topic": "Wireless Attacks",
+   "note": ""
+  },
+  {
+   "a": "DoS",
+   "full": "Denial of Service",
+   "topic": "Wireless Attacks",
+   "note": ""
+  },
+  {
+   "a": "VPN",
+   "full": "Virtual Private Network",
+   "topic": "VPN & Defenses",
+   "note": ""
+  },
+  {
+   "a": "TLS",
+   "full": "Transport Layer Security",
+   "topic": "VPN & Defenses",
+   "note": ""
+  },
+  {
+   "a": "IPsec",
+   "full": "Internet Protocol Security",
+   "topic": "VPN & Defenses",
+   "note": "secures Diameter in LTE/5G core"
+  },
+  {
+   "a": "SSH",
+   "full": "Secure Shell",
+   "topic": "VPN & Defenses",
+   "note": ""
+  },
+  {
+   "a": "GRE",
+   "full": "Generic Routing Encapsulation",
+   "topic": "Networks & Switching",
+   "note": "tunneling, no encryption"
+  },
+  {
+   "a": "TCP",
+   "full": "Transmission Control Protocol",
+   "topic": "Networks & Switching",
+   "note": "produces segments"
+  },
+  {
+   "a": "UDP",
+   "full": "User Datagram Protocol",
+   "topic": "Networks & Switching",
+   "note": ""
+  },
+  {
+   "a": "IP",
+   "full": "Internet Protocol",
+   "topic": "Networks & Switching",
+   "note": "produces datagrams"
+  },
+  {
+   "a": "DNS",
+   "full": "Domain Name System",
+   "topic": "Networks & Switching",
+   "note": ""
+  },
+  {
+   "a": "HTTP",
+   "full": "Hypertext Transfer Protocol",
+   "topic": "Networks & Switching",
+   "note": ""
+  },
+  {
+   "a": "ARP",
+   "full": "Address Resolution Protocol",
+   "topic": "Networks & Switching",
+   "note": "IP -> MAC"
+  },
+  {
+   "a": "DHCP",
+   "full": "Dynamic Host Configuration Protocol",
+   "topic": "Networks & Switching",
+   "note": ""
+  },
+  {
+   "a": "MTU",
+   "full": "Maximum Transmission Unit",
+   "topic": "Networks & Switching",
+   "note": "1500 bytes on Ethernet"
+  },
+  {
+   "a": "QoS",
+   "full": "Quality of Service",
+   "topic": "Networks & Switching",
+   "note": ""
+  },
+  {
+   "a": "VoIP",
+   "full": "Voice over Internet Protocol",
+   "topic": "Networks & Switching",
+   "note": ""
+  },
+  {
+   "a": "CRC",
+   "full": "Cyclic Redundancy Check",
+   "topic": "Signals & Media",
+   "note": "error detection"
+  },
+  {
+   "a": "EMI",
+   "full": "Electromagnetic Interference",
+   "topic": "Signals & Media",
+   "note": ""
+  },
+  {
+   "a": "SNR",
+   "full": "Signal-to-Noise Ratio",
+   "topic": "Signals & Media",
+   "note": ""
+  },
+  {
+   "a": "dB",
+   "full": "Decibel",
+   "topic": "Signals & Media",
+   "note": "10 log10(ratio)"
+  },
+  {
+   "a": "FSPL",
+   "full": "Free-Space Path Loss",
+   "topic": "Signals & Media",
+   "note": ""
+  },
+  {
+   "a": "LOS",
+   "full": "Line of Sight",
+   "topic": "Signals & Media",
+   "note": ""
+  },
+  {
+   "a": "TDM",
+   "full": "Time-Division Multiplexing",
+   "topic": "Signals & Media",
+   "note": ""
+  },
+  {
+   "a": "TDMA",
+   "full": "Time-Division Multiple Access",
+   "topic": "GSM / Cellular",
+   "note": "GSM: 8 slots per carrier"
+  },
+  {
+   "a": "FDMA",
+   "full": "Frequency-Division Multiple Access",
+   "topic": "GSM / Cellular",
+   "note": "GSM: 200 kHz carriers"
+  },
+  {
+   "a": "CDM",
+   "full": "Code-Division Multiplexing",
+   "topic": "Signals & Media",
+   "note": ""
+  },
+  {
+   "a": "CDMA",
+   "full": "Code-Division Multiple Access",
+   "topic": "GSM / Cellular",
+   "note": ""
+  },
+  {
+   "a": "SDMA",
+   "full": "Space-Division Multiple Access",
+   "topic": "GSM / Cellular",
+   "note": ""
+  },
+  {
+   "a": "BLE",
+   "full": "Bluetooth Low Energy",
+   "topic": "Bluetooth & ZigBee",
+   "note": ""
+  },
+  {
+   "a": "FFD",
+   "full": "Full-Function Device",
+   "topic": "Bluetooth & ZigBee",
+   "note": "ZigBee coordinator/router"
+  },
+  {
+   "a": "RFD",
+   "full": "Reduced-Function Device",
+   "topic": "Bluetooth & ZigBee",
+   "note": "ZigBee end device"
+  },
+  {
+   "a": "PAN",
+   "full": "Personal Area Network",
+   "topic": "Bluetooth & ZigBee",
+   "note": "ZigBee network has a PAN ID"
+  },
+  {
+   "a": "GSM",
+   "full": "Global System for Mobile Communications",
+   "topic": "GSM / Cellular",
+   "note": "2G"
+  },
+  {
+   "a": "UMTS",
+   "full": "Universal Mobile Telecommunications System",
+   "topic": "GSM / Cellular",
+   "note": "3G; added mutual auth"
+  },
+  {
+   "a": "SIM",
+   "full": "Subscriber Identity Module",
+   "topic": "GSM / Cellular",
+   "note": "holds IMSI + Ki"
+  },
+  {
+   "a": "IMSI",
+   "full": "International Mobile Subscriber Identity",
+   "topic": "GSM / Cellular",
+   "note": "permanent ID"
+  },
+  {
+   "a": "TMSI",
+   "full": "Temporary Mobile Subscriber Identity",
+   "topic": "GSM / Cellular",
+   "note": "hides IMSI over the air"
+  },
+  {
+   "a": "IMEI",
+   "full": "International Mobile Equipment Identity",
+   "topic": "GSM / Cellular",
+   "note": "identifies the handset"
+  },
+  {
+   "a": "MS",
+   "full": "Mobile Station",
+   "topic": "GSM / Cellular",
+   "note": "phone + SIM"
+  },
+  {
+   "a": "ME",
+   "full": "Mobile Equipment",
+   "topic": "GSM / Cellular",
+   "note": "the handset"
+  },
+  {
+   "a": "BTS",
+   "full": "Base Transceiver Station",
+   "topic": "GSM / Cellular",
+   "note": "cell radio"
+  },
+  {
+   "a": "BSC",
+   "full": "Base Station Controller",
+   "topic": "GSM / Cellular",
+   "note": ""
+  },
+  {
+   "a": "MSC",
+   "full": "Mobile Switching Center",
+   "topic": "GSM / Cellular",
+   "note": ""
+  },
+  {
+   "a": "HLR",
+   "full": "Home Location Register",
+   "topic": "GSM / Cellular",
+   "note": "permanent subscriber DB"
+  },
+  {
+   "a": "VLR",
+   "full": "Visitor Location Register",
+   "topic": "GSM / Cellular",
+   "note": "temporary, current area"
+  },
+  {
+   "a": "AuC",
+   "full": "Authentication Center",
+   "topic": "GSM / Cellular",
+   "note": "holds Ki"
+  },
+  {
+   "a": "EIR",
+   "full": "Equipment Identity Register",
+   "topic": "GSM / Cellular",
+   "note": "IMEI blacklist"
+  },
+  {
+   "a": "RAND",
+   "full": "Random challenge",
+   "topic": "GSM / Cellular",
+   "note": "128-bit, sent by network"
+  },
+  {
+   "a": "SRES",
+   "full": "Signed Response",
+   "topic": "GSM / Cellular",
+   "note": "A3(Ki, RAND)"
+  },
+  {
+   "a": "Ki",
+   "full": "Individual subscriber authentication key",
+   "topic": "GSM / Cellular",
+   "note": "on SIM + AuC"
+  },
+  {
+   "a": "Kc",
+   "full": "Cipher key",
+   "topic": "GSM / Cellular",
+   "note": "A8(Ki, RAND), used by A5"
+  },
+  {
+   "a": "SMS",
+   "full": "Short Message Service",
+   "topic": "GSM / Cellular",
+   "note": ""
+  },
+  {
+   "a": "PSTN",
+   "full": "Public Switched Telephone Network",
+   "topic": "GSM / Cellular",
+   "note": ""
+  },
+  {
+   "a": "PoW",
+   "full": "Proof of Work",
+   "topic": "Distributed Systems & Blockchain",
+   "note": ""
+  },
+  {
+   "a": "P2P",
+   "full": "Peer-to-Peer",
+   "topic": "Distributed Systems & Blockchain",
+   "note": ""
+  }
+ ]
+}
